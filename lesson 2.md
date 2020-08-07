@@ -1,6 +1,20 @@
+## 迴圈
+印出下列圖案:
+```
+#
+##
+###
+####
+#####
+######
+#######
+```
+```
+for (let line = "#"; line.length < 8; line += "#")
+  console.log(line);
+```
 ## Fizz-Buzz問題
 列印出數字1~100，若該數可以被3整除，則印出Fizz；若可以被5整除，則印出Buzz；若可以被15整除，則印出FizzBuzz。
-解答:
 ```
 for (let n = 1; n <= 100; n++) {
   let output = "";
