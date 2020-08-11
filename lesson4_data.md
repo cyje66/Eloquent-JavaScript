@@ -67,6 +67,7 @@ obj['!!12345!!'] // "Hello World"
 
 * 特性存取（property access），意即 `.`
 * 鍵值存取（key access），意即 `[ ]`  
+  
 `Object.keys` 回傳一Object的屬性(property): 
 ```
 console.log(Object.keys({x: 0, y: 0, z: 2}));
